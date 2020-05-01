@@ -20,7 +20,6 @@ or
 
 ## FAQ
 
--- Rocketchat is not starting after upgrade:
-check the status of rocketchat there might be an error like "Browserslist: caniuse-lite is outdated. Please run next command `npm update`"
+Rocketchat is not starting after upgrade, check the status via `systemctl status rocketchat` there might be an error like "Browserslist: caniuse-lite is outdated. Please run next command `npm update`"
 
 Just do the `npm update` and then restart rocketchat via `systemctl restart rocketchat`
