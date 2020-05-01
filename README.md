@@ -13,6 +13,14 @@ before you use the script you need to make it executable
 
 `chmod +x rocketchat.sh`
 
-`./rocketupdate.sh check `
+`./rocketupdate.sh check`
 or
 `./rocketupdate.sh update`
+
+
+## FAQ
+
+-- Rocketchat is not starting after upgrade:
+check the status of rocketchat there might be an error like "Browserslist: caniuse-lite is outdated. Please run next command `npm update`"
+
+Just do the `npm update` and then restart rocketchat via `systemctl restart rocketchat`
